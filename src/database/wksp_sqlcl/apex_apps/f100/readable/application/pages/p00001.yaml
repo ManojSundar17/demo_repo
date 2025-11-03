@@ -41,7 +41,11 @@ regions:
   id: 8386224469412764
   identification: 
     name: Sample SQLCL Application
+    title: Sample SQLCL Application
     type: Static Content
+
+  source: 
+    html-code: <p>Welcome</p>
 
   layout: 
     sequence: 10

@@ -3,7 +3,5 @@
                    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
-<!--CHANGES-->
-<include file="changes/tkt1/stage.changelog.xml" relativeToChangelogFile="true"/>
-<include file="changes/ticket-1/stage.changelog.xml" relativeToChangelogFile="true"/>
+<include file="wksp_sqlcl/tables/marcie_test.sql" relativeToChangelogFile="true"/>
 </databaseChangeLog>
