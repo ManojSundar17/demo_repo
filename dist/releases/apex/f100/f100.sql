@@ -105,7 +105,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'Sample SQLCL Application'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>7
-,p_version_scn=>45617149335570
+,p_version_scn=>45775458723257
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -919,11 +919,13 @@ wwv_flow_imp_page.create_page(
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(8386224469412764)
 ,p_plug_name=>'Sample SQLCL Application'
+,p_title=>'Sample SQLCL Application'
 ,p_region_template_options=>'#DEFAULT#'
-,p_escape_on_http_output=>'Y'
 ,p_plug_template=>2674017834225413037
 ,p_plug_display_sequence=>10
 ,p_plug_display_point=>'REGION_POSITION_01'
+,p_location=>null
+,p_plug_source=>'<p>Welcome</p>'
 ,p_plug_query_num_rows=>15
 ,p_region_image=>'#APP_FILES#icons/app-icon-512.png'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
@@ -1156,4 +1158,4 @@ prompt  ...done
 
 
 
--- sqlcl_snapshot {"hash":"389cf0ee22b8a76de887cf274a1d8fd252987fc5","type":"APEX_APPLICATIONS","name":"f100","schemaName":"ADMIN","sxml":""}
+-- sqlcl_snapshot {"hash":"5a4ec9cbcadee4a7ca9d074e4c49c187f94d9545","type":"APEX_APPLICATIONS","name":"f100","schemaName":"ADMIN","sxml":""}
